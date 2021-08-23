@@ -1,0 +1,21 @@
+{
+  "name": "face-recogonition-realtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSH132010/Face-Recogonition-Realtime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSH132010/Face-Recogonition-Realtime/issues"
+  }
+}

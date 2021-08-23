@@ -1,0 +1,74 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --Primary-clr: #8100FF;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar .container-fluid {
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.navbar .container-fluid .navbar-brand {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.navbar .container-fluid .collapse ul li {
+  margin-right: 25px;
+}
+
+.navbar .container-fluid .collapse ul li a.btn-outline-dark {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.hero h1 {
+  color: var(--Primary-clr);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.hero button {
+  background: var(--Primary-clr);
+  border-color: var(--Primary-clr);
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.hero button:hover {
+  background: #5d00b9;
+}
+/*# sourceMappingURL=style.css.map */
